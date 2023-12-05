@@ -42,7 +42,7 @@ body {
 .top-hat {
     position: relative; 
     top: -510px;
-    width: 50px;
+    width: 90px;
     height: 30px;
     background-color: #000;
     margin: 5px auto;
@@ -51,26 +51,18 @@ body {
 .hat-band {
     position: relative; 
     top: -519px;
-    width: 100px;
-    height: 10px;
+    width: 110px;
+    height: 15px;
     background-color: #000;
     margin: 5px auto;
 }
 
-.scarf {
-    position: relative; 
-    top: -525px;
-    width: 90px;
-    height: 15px;
-    background-color: #e74c3c;
-    border-radius: 5px;
-    margin: 5px auto;
-}
+
 
 .scarf1 {
     position: relative; 
-    top: -415px;
-    width: 110px;
+    top: -405px;
+    width: 120px;
     height: 15px;
     background-color: #e74c3c;
     border-radius: 5px;
@@ -114,4 +106,34 @@ body {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     margin: 5px auto;
+}
+
+.punto {
+    position: relative; 
+    top: -498px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+
+.punto1 {
+    position: relative; 
+    top: -440px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.punto2 {
+    position: relative; 
+    top: -490px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
 }
