@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #db8686;
+}
+
+.snowman {
+    text-align: center;
+}
+
+.circle {
+    width: 200px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.circle1 {
+    position: relative; 
+    top: 110px;
+    width: 250px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.circle2 {
+    position: relative; 
+    top: -190px;
+    width: 220px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.top-hat {
+    position: relative; 
+    top: -510px;
+    width: 50px;
+    height: 30px;
+    background-color: #000;
+    margin: 5px auto;
+}
+
+.hat-band {
+    position: relative; 
+    top: -519px;
+    width: 100px;
+    height: 10px;
+    background-color: #000;
+    margin: 5px auto;
+}
+
+.scarf {
+    position: relative; 
+    top: -525px;
+    width: 90px;
+    height: 15px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.scarf1 {
+    position: relative; 
+    top: -415px;
+    width: 110px;
+    height: 15px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+
+.carrot-nose {
+    position: relative; 
+    top: -520px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid orangered;
+    margin: 5px auto;
+}
+
+.eyes {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.eye {
+    position: relative; 
+    top: -540px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+
+}
+
+.mouth {
+    position: relative; 
+    top: -520px;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 5px auto;
+}
