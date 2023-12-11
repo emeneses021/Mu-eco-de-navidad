@@ -7,11 +7,13 @@ body {
     background-color: #db8686;
 }
 
-.snowman {
+#meneses .snowman {
     text-align: center;
 }
 
-.circle {
+#meneses .circle {
+    position: relative; 
+    text-align: center;
     width: 200px;
     height: 150px;
     background-color: #fcfbfb;
@@ -19,7 +21,7 @@ body {
     margin: 10px auto;
 }
 
-.circle1 {
+#meneses .circle1 {
     position: relative; 
     top: 110px;
     width: 250px;
@@ -29,7 +31,8 @@ body {
     margin: 10px auto;
 }
 
-.circle2 {
+#meneses .circle2 {
+    text-align: center;
     position: relative; 
     top: -190px;
     width: 220px;
@@ -39,7 +42,7 @@ body {
     margin: 10px auto;
 }
 
-.top-hat {
+#meneses .top-hat {
     position: relative; 
     top: -510px;
     width: 90px;
@@ -48,7 +51,7 @@ body {
     margin: 5px auto;
 }
 
-.hat-band {
+#meneses .hat-band {
     position: relative; 
     top: -519px;
     width: 110px;
@@ -59,7 +62,7 @@ body {
 
 
 
-.scarf1 {
+#meneses .scarf1 {
     position: relative; 
     top: -405px;
     width: 120px;
@@ -70,7 +73,7 @@ body {
 }
 
 
-.carrot-nose {
+#meneses .carrot-nose {
     position: relative; 
     top: -520px;
     width: 0;
@@ -81,13 +84,13 @@ body {
     margin: 5px auto;
 }
 
-.eyes {
+#meneses .eyes {
     
     display: flex;
     justify-content: space-around;
 }
 
-.eye {
+#meneses .eye {
     position: relative; 
     top: -540px;
     width: 15px;
@@ -97,7 +100,7 @@ body {
 
 }
 
-.mouth {
+#meneses .mouth {
     position: relative; 
     top: -520px;
     width: 40px;
@@ -108,7 +111,7 @@ body {
     margin: 5px auto;
 }
 
-.punto {
+#meneses .punto {
     position: relative; 
     top: -498px;
     left: 118px;
@@ -118,7 +121,7 @@ body {
     border-radius: 50%;
 }
 
-.punto1 {
+#meneses .punto1 {
     position: relative; 
     top: -440px;
     left: 118px;
@@ -128,7 +131,29 @@ body {
     border-radius: 50%;
 }
 
-.punto2 {
+#meneses .brazo {
+    position: relative; 
+    top: -485px;
+    left: 230px;
+    width: 105px;
+    height: 10px;
+    background-color: #000;
+
+}
+
+#meneses .brazo1 {
+    position: relative; 
+    top: -485px;
+    right: 85px;
+    width: 105px;
+    height: 10px;
+    background-color: #000;
+
+
+}
+
+
+#meneses .punto2 {
     position: relative; 
     top: -490px;
     left: 118px;
